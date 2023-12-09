@@ -1,0 +1,69 @@
+main {
+    padding: 20px;
+}
+
+.p-2 {
+    background-color: #4C2E10;
+    color: #E7B888 ;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.btn-editar {
+    background-color:#E7B888  ;
+    color: #4C2E10;
+    border: 1px solid #E7B888;
+    border-radius: 7px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#edit-data {
+    display: none;
+}
+
+#formulario {
+    display: block;
+    width: 80%;
+    background-color: #4C2E10;
+    margin-inline: 9%;
+    margin-block: 20px;
+    border-radius: 7px;
+}
+
+#formulario label {
+    margin: 10px;
+    margin-top: 30px;
+    color: #E7B888;
+    margin-inline: 40%;
+    width: 20%;
+    text-align: center;
+}
+
+#formulario input {
+    background-color: #E7B888;
+    color: #4C2E10;
+    width: 80%;
+    border-radius: 7px;
+    border: 1px solid #E7B888;
+    margin: 5px;
+    padding: 2px;
+    margin-inline: 9%;
+}
+
+#formulario button {
+    background-color: #E7B888;
+    color: #4C2E10;
+    border-radius: 7px;
+    border: 1px solid #E7B888;
+    margin: 10px;
+    padding: 5px;
+    margin-bottom: 30px;
+    margin-inline: 40%;
+    width: 20%;
+    text-align: center;
+}
+
+#editar-user {
+    display: none;
+}

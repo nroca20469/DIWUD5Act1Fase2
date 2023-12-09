@@ -1,0 +1,87 @@
+img {
+    max-width: 200px;
+}
+
+/* main {
+    /* width: 100%; */
+    /* height: 100%; */
+    /* background-color: red; */
+    
+/* }
+
+body {
+    background-color: red !important; 
+} */
+
+#showData {
+    text-align: center;
+    padding-block: 10px;
+    padding-bottom: 30px;
+}
+
+/* img{
+    background-color: red !important; 
+} */
+
+.edit-data, .chg-password, .chg-avatar {
+    display: none;
+}
+
+.btn {
+    background-color:#4C2E10;
+    color: #E7B888;
+    padding: 10px;
+}
+
+#formulario {
+    display: block;
+    width: 80%;
+    background-color: #4C2E10;
+    margin-inline: 9%;
+    margin-block: 20px;
+    border-radius: 7px;
+}
+
+#formulario label, #formulario h5 {
+    margin: 10px;
+    margin-top: 20px;
+    padding-top: 10px;
+    color: #E7B888;
+    margin-inline: 40%;
+    width: 20%;
+    text-align: center;
+}
+
+#formulario input {
+    background-color: #E7B888;
+    color: #4C2E10;
+    width: 80%;
+    border-radius: 7px;
+    border: 1px solid #E7B888;
+    margin: 5px;
+    padding: 2px;
+    margin-inline: 9%;
+}
+
+#formulario button {
+    background-color: #E7B888;
+    color: #4C2E10;
+    border-radius: 7px;
+    border: 1px solid #E7B888;
+    margin: 10px;
+    padding: 5px;
+    margin-bottom: 30px;
+    margin-inline: 40%;
+    width: 20%;
+    text-align: center;
+}
+
+.form-check label input:not(:checked)+img:hover {
+    width: 100px;
+}
+
+.form-check-label input:checked+img {
+    width: 120px;
+    height: 120px;
+    border: 1px solid transparent;
+}
